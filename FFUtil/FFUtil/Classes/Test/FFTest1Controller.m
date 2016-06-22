@@ -8,6 +8,8 @@
 
 #import "FFTest1Controller.h"
 
+#import <AFNetworking.h>
+
 @interface FFTest1Controller ()
 
 @end
@@ -16,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
