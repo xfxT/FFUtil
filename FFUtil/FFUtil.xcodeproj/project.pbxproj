@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		7B8996D71D19813000EEDC8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996D61D19813000EEDC8E /* main.m */; };
 		7B8996DA1D19813000EEDC8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996D91D19813000EEDC8E /* AppDelegate.m */; };
-		7B8996DD1D19813000EEDC8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996DC1D19813000EEDC8E /* ViewController.m */; };
-		7B8996E01D19813000EEDC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8996DE1D19813000EEDC8E /* Main.storyboard */; };
 		7B8996E31D19813000EEDC8E /* FFUtil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996E11D19813000EEDC8E /* FFUtil.xcdatamodeld */; };
 		7B8996E51D19813000EEDC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8996E41D19813000EEDC8E /* Assets.xcassets */; };
 		7B8996E81D19813000EEDC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8996E61D19813000EEDC8E /* LaunchScreen.storyboard */; };
 		7B8996F31D19813000EEDC8E /* FFUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996F21D19813000EEDC8E /* FFUtilTests.m */; };
 		7B8996FE1D19813000EEDC8E /* FFUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996FD1D19813000EEDC8E /* FFUtilUITests.m */; };
+		F3478F751D1A373600119E8E /* FFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F741D1A373600119E8E /* FFNavigationController.m */; };
+		F3478F781D1A374A00119E8E /* FFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F771D1A374A00119E8E /* FFTabBarController.m */; };
+		F3478F7B1D1A37AC00119E8E /* FFDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F7A1D1A37AC00119E8E /* FFDefine.m */; };
+		F3478F7F1D1A382000119E8E /* FFTest1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F7D1D1A382000119E8E /* FFTest1Controller.m */; };
+		F3478F801D1A382000119E8E /* FFTest1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3478F7E1D1A382000119E8E /* FFTest1Controller.xib */; };
+		F3478F841D1A383000119E8E /* FFTest2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F821D1A383000119E8E /* FFTest2Controller.m */; };
+		F3478F851D1A383000119E8E /* FFTest2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3478F831D1A383000119E8E /* FFTest2Controller.xib */; };
+		F3478F891D1A383E00119E8E /* FFTest3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F871D1A383E00119E8E /* FFTest3Controller.m */; };
+		F3478F8A1D1A383E00119E8E /* FFTest3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3478F881D1A383E00119E8E /* FFTest3Controller.xib */; };
+		F3478F8E1D1A384B00119E8E /* FFTest4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F8C1D1A384B00119E8E /* FFTest4Controller.m */; };
+		F3478F8F1D1A384B00119E8E /* FFTest4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3478F8D1D1A384B00119E8E /* FFTest4Controller.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +49,34 @@
 		7B8996D61D19813000EEDC8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B8996D81D19813000EEDC8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B8996D91D19813000EEDC8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B8996DB1D19813000EEDC8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B8996DC1D19813000EEDC8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7B8996DF1D19813000EEDC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B8996E21D19813000EEDC8E /* FFUtil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FFUtil.xcdatamodel; sourceTree = "<group>"; };
-		7B8996E41D19813000EEDC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8996E41D19813000EEDC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		7B8996E71D19813000EEDC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B8996E91D19813000EEDC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8996E91D19813000EEDC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		7B8996EE1D19813000EEDC8E /* FFUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8996F21D19813000EEDC8E /* FFUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFUtilTests.m; sourceTree = "<group>"; };
 		7B8996F41D19813000EEDC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B8996F91D19813000EEDC8E /* FFUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8996FD1D19813000EEDC8E /* FFUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFUtilUITests.m; sourceTree = "<group>"; };
 		7B8996FF1D19813000EEDC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3478F731D1A373600119E8E /* FFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNavigationController.h; sourceTree = "<group>"; };
+		F3478F741D1A373600119E8E /* FFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNavigationController.m; sourceTree = "<group>"; };
+		F3478F761D1A374A00119E8E /* FFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabBarController.h; sourceTree = "<group>"; };
+		F3478F771D1A374A00119E8E /* FFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabBarController.m; sourceTree = "<group>"; };
+		F3478F791D1A37AC00119E8E /* FFDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDefine.h; sourceTree = "<group>"; };
+		F3478F7A1D1A37AC00119E8E /* FFDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDefine.m; sourceTree = "<group>"; };
+		F3478F7C1D1A382000119E8E /* FFTest1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest1Controller.h; sourceTree = "<group>"; };
+		F3478F7D1D1A382000119E8E /* FFTest1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest1Controller.m; sourceTree = "<group>"; };
+		F3478F7E1D1A382000119E8E /* FFTest1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest1Controller.xib; sourceTree = "<group>"; };
+		F3478F811D1A383000119E8E /* FFTest2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest2Controller.h; sourceTree = "<group>"; };
+		F3478F821D1A383000119E8E /* FFTest2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest2Controller.m; sourceTree = "<group>"; };
+		F3478F831D1A383000119E8E /* FFTest2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest2Controller.xib; sourceTree = "<group>"; };
+		F3478F861D1A383E00119E8E /* FFTest3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest3Controller.h; sourceTree = "<group>"; };
+		F3478F871D1A383E00119E8E /* FFTest3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest3Controller.m; sourceTree = "<group>"; };
+		F3478F881D1A383E00119E8E /* FFTest3Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest3Controller.xib; sourceTree = "<group>"; };
+		F3478F8B1D1A384B00119E8E /* FFTest4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest4Controller.h; sourceTree = "<group>"; };
+		F3478F8C1D1A384B00119E8E /* FFTest4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest4Controller.m; sourceTree = "<group>"; };
+		F3478F8D1D1A384B00119E8E /* FFTest4Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest4Controller.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +127,9 @@
 		7B8996D41D19813000EEDC8E /* FFUtil */ = {
 			isa = PBXGroup;
 			children = (
+				F3478F671D1A368000119E8E /* Classes */,
 				7B8996D81D19813000EEDC8E /* AppDelegate.h */,
 				7B8996D91D19813000EEDC8E /* AppDelegate.m */,
-				7B8996DB1D19813000EEDC8E /* ViewController.h */,
-				7B8996DC1D19813000EEDC8E /* ViewController.m */,
-				7B8996DE1D19813000EEDC8E /* Main.storyboard */,
-				7B8996E41D19813000EEDC8E /* Assets.xcassets */,
-				7B8996E61D19813000EEDC8E /* LaunchScreen.storyboard */,
-				7B8996E91D19813000EEDC8E /* Info.plist */,
 				7B8996E11D19813000EEDC8E /* FFUtil.xcdatamodeld */,
 				7B8996D51D19813000EEDC8E /* Supporting Files */,
 			);
@@ -141,6 +160,122 @@
 				7B8996FF1D19813000EEDC8E /* Info.plist */,
 			);
 			path = FFUtilUITests;
+			sourceTree = "<group>";
+		};
+		F3478F671D1A368000119E8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3478F681D1A368000119E8E /* Common */,
+				F3478F6A1D1A368000119E8E /* Lib */,
+				F3478F6B1D1A368000119E8E /* Main */,
+				F3478F711D1A368000119E8E /* Ressource */,
+				F3478F721D1A368000119E8E /* Test */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F3478F681D1A368000119E8E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F3478F691D1A368000119E8E /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F3478F691D1A368000119E8E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F3478F6A1D1A368000119E8E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F3478F6B1D1A368000119E8E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F3478F6C1D1A368000119E8E /* Config */,
+				F3478F6D1D1A368000119E8E /* Controller */,
+				F3478F6E1D1A368000119E8E /* Model */,
+				F3478F6F1D1A368000119E8E /* Util */,
+				F3478F701D1A368000119E8E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F3478F6C1D1A368000119E8E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F3478F791D1A37AC00119E8E /* FFDefine.h */,
+				F3478F7A1D1A37AC00119E8E /* FFDefine.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F3478F6D1D1A368000119E8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3478F761D1A374A00119E8E /* FFTabBarController.h */,
+				F3478F771D1A374A00119E8E /* FFTabBarController.m */,
+				F3478F731D1A373600119E8E /* FFNavigationController.h */,
+				F3478F741D1A373600119E8E /* FFNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3478F6E1D1A368000119E8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3478F6F1D1A368000119E8E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F3478F701D1A368000119E8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3478F711D1A368000119E8E /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				7B8996E41D19813000EEDC8E /* Assets.xcassets */,
+				7B8996E61D19813000EEDC8E /* LaunchScreen.storyboard */,
+				7B8996E91D19813000EEDC8E /* Info.plist */,
+			);
+			path = Ressource;
+			sourceTree = "<group>";
+		};
+		F3478F721D1A368000119E8E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F3478F7C1D1A382000119E8E /* FFTest1Controller.h */,
+				F3478F7D1D1A382000119E8E /* FFTest1Controller.m */,
+				F3478F7E1D1A382000119E8E /* FFTest1Controller.xib */,
+				F3478F811D1A383000119E8E /* FFTest2Controller.h */,
+				F3478F821D1A383000119E8E /* FFTest2Controller.m */,
+				F3478F831D1A383000119E8E /* FFTest2Controller.xib */,
+				F3478F861D1A383E00119E8E /* FFTest3Controller.h */,
+				F3478F871D1A383E00119E8E /* FFTest3Controller.m */,
+				F3478F881D1A383E00119E8E /* FFTest3Controller.xib */,
+				F3478F8B1D1A384B00119E8E /* FFTest4Controller.h */,
+				F3478F8C1D1A384B00119E8E /* FFTest4Controller.m */,
+				F3478F8D1D1A384B00119E8E /* FFTest4Controller.xib */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +340,7 @@
 		7B8996CA1D19813000EEDC8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FF;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = nono;
 				TargetAttributes = {
@@ -246,9 +382,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3478F851D1A383000119E8E /* FFTest2Controller.xib in Resources */,
 				7B8996E81D19813000EEDC8E /* LaunchScreen.storyboard in Resources */,
+				F3478F801D1A382000119E8E /* FFTest1Controller.xib in Resources */,
 				7B8996E51D19813000EEDC8E /* Assets.xcassets in Resources */,
-				7B8996E01D19813000EEDC8E /* Main.storyboard in Resources */,
+				F3478F8F1D1A384B00119E8E /* FFTest4Controller.xib in Resources */,
+				F3478F8A1D1A383E00119E8E /* FFTest3Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +412,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B8996DD1D19813000EEDC8E /* ViewController.m in Sources */,
+				F3478F891D1A383E00119E8E /* FFTest3Controller.m in Sources */,
+				F3478F841D1A383000119E8E /* FFTest2Controller.m in Sources */,
 				7B8996E31D19813000EEDC8E /* FFUtil.xcdatamodeld in Sources */,
+				F3478F7F1D1A382000119E8E /* FFTest1Controller.m in Sources */,
+				F3478F781D1A374A00119E8E /* FFTabBarController.m in Sources */,
 				7B8996DA1D19813000EEDC8E /* AppDelegate.m in Sources */,
 				7B8996D71D19813000EEDC8E /* main.m in Sources */,
+				F3478F7B1D1A37AC00119E8E /* FFDefine.m in Sources */,
+				F3478F8E1D1A384B00119E8E /* FFTest4Controller.m in Sources */,
+				F3478F751D1A373600119E8E /* FFNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,20 +457,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7B8996DE1D19813000EEDC8E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B8996DF1D19813000EEDC8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B8996E61D19813000EEDC8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7B8996E71D19813000EEDC8E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -500,6 +638,7 @@
 				7B8997041D19813000EEDC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8997051D19813000EEDC8E /* Build configuration list for PBXNativeTarget "FFUtilTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +647,7 @@
 				7B8997071D19813000EEDC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8997081D19813000EEDC8E /* Build configuration list for PBXNativeTarget "FFUtilUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +656,7 @@
 				7B89970A1D19813000EEDC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
