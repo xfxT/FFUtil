@@ -218,6 +218,7 @@
 		F3478F6A1D1A368000119E8E /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				F35CE4DE1D281A5300592AD1 /* IflyMSC */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -300,6 +301,13 @@
 				F3478F8D1D1A384B00119E8E /* FFTest4Controller.xib */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		F35CE4DE1D281A5300592AD1 /* IflyMSC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IflyMSC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
