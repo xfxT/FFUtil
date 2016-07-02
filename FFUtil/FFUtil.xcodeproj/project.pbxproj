@@ -26,6 +26,19 @@
 		F3478F8A1D1A383E00119E8E /* FFTest3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3478F881D1A383E00119E8E /* FFTest3Controller.xib */; };
 		F3478F8E1D1A384B00119E8E /* FFTest4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F8C1D1A384B00119E8E /* FFTest4Controller.m */; };
 		F3478F8F1D1A384B00119E8E /* FFTest4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3478F8D1D1A384B00119E8E /* FFTest4Controller.xib */; };
+		F35CE4E01D281C2300592AD1 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4DF1D281C2300592AD1 /* iflyMSC.framework */; };
+		F35CE4E21D281D7B00592AD1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4E11D281D7B00592AD1 /* libz.tbd */; };
+		F35CE4E41D281D8D00592AD1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4E31D281D8D00592AD1 /* AVFoundation.framework */; };
+		F35CE4E61D281D9700592AD1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4E51D281D9700592AD1 /* SystemConfiguration.framework */; };
+		F35CE4E81D281DA300592AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4E71D281DA300592AD1 /* Foundation.framework */; };
+		F35CE4EA1D281DB600592AD1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4E91D281DB600592AD1 /* CoreTelephony.framework */; };
+		F35CE4EC1D281DC100592AD1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4EB1D281DC100592AD1 /* AudioToolbox.framework */; };
+		F35CE4EE1D281DCB00592AD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4ED1D281DCB00592AD1 /* UIKit.framework */; };
+		F35CE4F01D281DD500592AD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4EF1D281DD500592AD1 /* CoreLocation.framework */; };
+		F35CE4F21D281DE000592AD1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F11D281DE000592AD1 /* AddressBook.framework */; };
+		F35CE4F41D281DE800592AD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F31D281DE800592AD1 /* QuartzCore.framework */; };
+		F35CE4F61D281DF100592AD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F51D281DF100592AD1 /* CoreGraphics.framework */; };
+		F35CE4F81D281E1900592AD1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F71D281E1900592AD1 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +94,19 @@
 		F3478F8B1D1A384B00119E8E /* FFTest4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTest4Controller.h; sourceTree = "<group>"; };
 		F3478F8C1D1A384B00119E8E /* FFTest4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTest4Controller.m; sourceTree = "<group>"; };
 		F3478F8D1D1A384B00119E8E /* FFTest4Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFTest4Controller.xib; sourceTree = "<group>"; };
+		F35CE4DF1D281C2300592AD1 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		F35CE4E11D281D7B00592AD1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F35CE4E31D281D8D00592AD1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F35CE4E51D281D9700592AD1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F35CE4E71D281DA300592AD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F35CE4E91D281DB600592AD1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F35CE4EB1D281DC100592AD1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F35CE4ED1D281DCB00592AD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F35CE4EF1D281DD500592AD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F35CE4F11D281DE000592AD1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F35CE4F31D281DE800592AD1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F35CE4F51D281DF100592AD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F35CE4F71D281E1900592AD1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +114,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35CE4F81D281E1900592AD1 /* libc++.tbd in Frameworks */,
+				F35CE4F61D281DF100592AD1 /* CoreGraphics.framework in Frameworks */,
+				F35CE4F41D281DE800592AD1 /* QuartzCore.framework in Frameworks */,
+				F35CE4F21D281DE000592AD1 /* AddressBook.framework in Frameworks */,
+				F35CE4F01D281DD500592AD1 /* CoreLocation.framework in Frameworks */,
+				F35CE4EE1D281DCB00592AD1 /* UIKit.framework in Frameworks */,
+				F35CE4EC1D281DC100592AD1 /* AudioToolbox.framework in Frameworks */,
+				F35CE4EA1D281DB600592AD1 /* CoreTelephony.framework in Frameworks */,
+				F35CE4E81D281DA300592AD1 /* Foundation.framework in Frameworks */,
+				F35CE4E61D281D9700592AD1 /* SystemConfiguration.framework in Frameworks */,
+				F35CE4E41D281D8D00592AD1 /* AVFoundation.framework in Frameworks */,
+				F35CE4E21D281D7B00592AD1 /* libz.tbd in Frameworks */,
+				F35CE4E01D281C2300592AD1 /* iflyMSC.framework in Frameworks */,
 				5A54C97B0DA56F2A7513FD4D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +160,18 @@
 		663F10B14D5CFD3CBA389A3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F35CE4F71D281E1900592AD1 /* libc++.tbd */,
+				F35CE4F51D281DF100592AD1 /* CoreGraphics.framework */,
+				F35CE4F31D281DE800592AD1 /* QuartzCore.framework */,
+				F35CE4F11D281DE000592AD1 /* AddressBook.framework */,
+				F35CE4EF1D281DD500592AD1 /* CoreLocation.framework */,
+				F35CE4ED1D281DCB00592AD1 /* UIKit.framework */,
+				F35CE4EB1D281DC100592AD1 /* AudioToolbox.framework */,
+				F35CE4E91D281DB600592AD1 /* CoreTelephony.framework */,
+				F35CE4E71D281DA300592AD1 /* Foundation.framework */,
+				F35CE4E51D281D9700592AD1 /* SystemConfiguration.framework */,
+				F35CE4E31D281D8D00592AD1 /* AVFoundation.framework */,
+				F35CE4E11D281D7B00592AD1 /* libz.tbd */,
 				9107A0FC066A6C45B68DBB70 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -306,6 +357,7 @@
 		F35CE4DE1D281A5300592AD1 /* IflyMSC */ = {
 			isa = PBXGroup;
 			children = (
+				F35CE4DF1D281C2300592AD1 /* iflyMSC.framework */,
 			);
 			path = IflyMSC;
 			sourceTree = "<group>";
@@ -639,6 +691,11 @@
 			baseConfigurationReference = 838999ED8DE8296D398875C8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FFUtil/Classes/Lib/IflyMSC",
+				);
 				INFOPLIST_FILE = FFUtil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.old.wang.FFUtil;
@@ -651,6 +708,11 @@
 			baseConfigurationReference = F26C67B5AD09FF3FDAC60951 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FFUtil/Classes/Lib/IflyMSC",
+				);
 				INFOPLIST_FILE = FFUtil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.old.wang.FFUtil;

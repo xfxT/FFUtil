@@ -8,6 +8,8 @@
 
 #import "FFTest1Controller.h"
 
+#import <iflyMSC/iflyMSC.h>
+
 #import <AFNetworking.h>
 
 @interface FFTest1Controller ()
