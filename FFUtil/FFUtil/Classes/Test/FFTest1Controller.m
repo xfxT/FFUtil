@@ -8,11 +8,15 @@
 
 #import "FFTest1Controller.h"
 
-#import <iflyMSC/iflyMSC.h>
+#import "FFVoiceUtil.h"
 
 #import <AFNetworking.h>
 
 @interface FFTest1Controller ()
+
+@property (strong, nonatomic) FFVoiceUtil *util;
+
+@property (assign, nonatomic) BOOL speaker;
 
 @end
 
@@ -20,12 +24,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.util = [FFVoiceUtil sharedVoice];
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)speakerAction:(id)sender
+{
+    self.speaker = !self.speaker;
+    if(self.speaker){
+        [self.util startSpeak];
+    }
 }
 
 /*

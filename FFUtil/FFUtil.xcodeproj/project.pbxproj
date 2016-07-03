@@ -39,6 +39,9 @@
 		F35CE4F41D281DE800592AD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F31D281DE800592AD1 /* QuartzCore.framework */; };
 		F35CE4F61D281DF100592AD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F51D281DF100592AD1 /* CoreGraphics.framework */; };
 		F35CE4F81D281E1900592AD1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F35CE4F71D281E1900592AD1 /* libc++.tbd */; };
+		F3EF815C1D287D22005C1BC1 /* FFVoiceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EF815B1D287D22005C1BC1 /* FFVoiceUtil.m */; };
+		F3EF815F1D28BCAF005C1BC1 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EF815E1D28BCAF005C1BC1 /* IATConfig.m */; };
+		F3EF81621D28BE2F005C1BC1 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EF81611D28BE2F005C1BC1 /* ISRDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,12 @@
 		F35CE4F31D281DE800592AD1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F35CE4F51D281DF100592AD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F35CE4F71D281E1900592AD1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F3EF815A1D287D22005C1BC1 /* FFVoiceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFVoiceUtil.h; sourceTree = "<group>"; };
+		F3EF815B1D287D22005C1BC1 /* FFVoiceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFVoiceUtil.m; sourceTree = "<group>"; };
+		F3EF815D1D28BCAF005C1BC1 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		F3EF815E1D28BCAF005C1BC1 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		F3EF81601D28BE2F005C1BC1 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		F3EF81611D28BE2F005C1BC1 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +263,7 @@
 		F3478F681D1A368000119E8E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F3EF81591D287CDE005C1BC1 /* Util */,
 				F3478F691D1A368000119E8E /* Category */,
 			);
 			path = Common;
@@ -360,6 +370,19 @@
 				F35CE4DF1D281C2300592AD1 /* iflyMSC.framework */,
 			);
 			path = IflyMSC;
+			sourceTree = "<group>";
+		};
+		F3EF81591D287CDE005C1BC1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F3EF81601D28BE2F005C1BC1 /* ISRDataHelper.h */,
+				F3EF81611D28BE2F005C1BC1 /* ISRDataHelper.m */,
+				F3EF815D1D28BCAF005C1BC1 /* IATConfig.h */,
+				F3EF815E1D28BCAF005C1BC1 /* IATConfig.m */,
+				F3EF815A1D287D22005C1BC1 /* FFVoiceUtil.h */,
+				F3EF815B1D287D22005C1BC1 /* FFVoiceUtil.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,15 +570,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EF81621D28BE2F005C1BC1 /* ISRDataHelper.m in Sources */,
 				F3478F891D1A383E00119E8E /* FFTest3Controller.m in Sources */,
 				F3478F841D1A383000119E8E /* FFTest2Controller.m in Sources */,
 				7B8996E31D19813000EEDC8E /* FFUtil.xcdatamodeld in Sources */,
 				F3478F7F1D1A382000119E8E /* FFTest1Controller.m in Sources */,
 				F3478F781D1A374A00119E8E /* FFTabBarController.m in Sources */,
 				7B8996DA1D19813000EEDC8E /* AppDelegate.m in Sources */,
+				F3EF815F1D28BCAF005C1BC1 /* IATConfig.m in Sources */,
 				7B8996D71D19813000EEDC8E /* main.m in Sources */,
 				F3478F7B1D1A37AC00119E8E /* FFDefine.m in Sources */,
 				F3478F8E1D1A384B00119E8E /* FFTest4Controller.m in Sources */,
+				F3EF815C1D287D22005C1BC1 /* FFVoiceUtil.m in Sources */,
 				F3478F751D1A373600119E8E /* FFNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
