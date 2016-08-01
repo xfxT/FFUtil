@@ -15,6 +15,9 @@
 		7B8996E81D19813000EEDC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8996E61D19813000EEDC8E /* LaunchScreen.storyboard */; };
 		7B8996F31D19813000EEDC8E /* FFUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996F21D19813000EEDC8E /* FFUtilTests.m */; };
 		7B8996FE1D19813000EEDC8E /* FFUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8996FD1D19813000EEDC8E /* FFUtilUITests.m */; };
+		F33B75CF1D46042400C494D0 /* FFAutoLayoutDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33B75CD1D46042400C494D0 /* FFAutoLayoutDemoController.m */; };
+		F33B75D01D46042400C494D0 /* FFAutoLayoutDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33B75CE1D46042400C494D0 /* FFAutoLayoutDemoController.xib */; };
+		F33B75D41D46055100C494D0 /* UIView+FFAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F33B75D31D46055100C494D0 /* UIView+FFAutoLayout.m */; };
 		F3478F751D1A373600119E8E /* FFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F741D1A373600119E8E /* FFNavigationController.m */; };
 		F3478F781D1A374A00119E8E /* FFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F771D1A374A00119E8E /* FFTabBarController.m */; };
 		F3478F7B1D1A37AC00119E8E /* FFDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F3478F7A1D1A37AC00119E8E /* FFDefine.m */; };
@@ -79,6 +82,11 @@
 		838999ED8DE8296D398875C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9107A0FC066A6C45B68DBB70 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26C67B5AD09FF3FDAC60951 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F33B75CC1D46042400C494D0 /* FFAutoLayoutDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAutoLayoutDemoController.h; sourceTree = "<group>"; };
+		F33B75CD1D46042400C494D0 /* FFAutoLayoutDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAutoLayoutDemoController.m; sourceTree = "<group>"; };
+		F33B75CE1D46042400C494D0 /* FFAutoLayoutDemoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFAutoLayoutDemoController.xib; sourceTree = "<group>"; };
+		F33B75D21D46055100C494D0 /* UIView+FFAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFAutoLayout.h"; sourceTree = "<group>"; };
+		F33B75D31D46055100C494D0 /* UIView+FFAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFAutoLayout.m"; sourceTree = "<group>"; };
 		F3478F731D1A373600119E8E /* FFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNavigationController.h; sourceTree = "<group>"; };
 		F3478F741D1A373600119E8E /* FFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNavigationController.m; sourceTree = "<group>"; };
 		F3478F761D1A374A00119E8E /* FFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabBarController.h; sourceTree = "<group>"; };
@@ -248,9 +256,38 @@
 			path = FFUtilUITests;
 			sourceTree = "<group>";
 		};
+		F33B75CA1D4603D400C494D0 /* AutoLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F33B75D11D4604FD00C494D0 /* FFAutoLayout */,
+				F33B75CB1D4603EF00C494D0 /* Controller */,
+			);
+			path = AutoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		F33B75CB1D4603EF00C494D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F33B75CC1D46042400C494D0 /* FFAutoLayoutDemoController.h */,
+				F33B75CD1D46042400C494D0 /* FFAutoLayoutDemoController.m */,
+				F33B75CE1D46042400C494D0 /* FFAutoLayoutDemoController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F33B75D11D4604FD00C494D0 /* FFAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F33B75D21D46055100C494D0 /* UIView+FFAutoLayout.h */,
+				F33B75D31D46055100C494D0 /* UIView+FFAutoLayout.m */,
+			);
+			path = FFAutoLayout;
+			sourceTree = "<group>";
+		};
 		F3478F671D1A368000119E8E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F33B75CA1D4603D400C494D0 /* AutoLayoutDemo */,
 				F3478F681D1A368000119E8E /* Common */,
 				F3478F6A1D1A368000119E8E /* Lib */,
 				F3478F6B1D1A368000119E8E /* Main */,
@@ -497,6 +534,7 @@
 				F3478F801D1A382000119E8E /* FFTest1Controller.xib in Resources */,
 				7B8996E51D19813000EEDC8E /* Assets.xcassets in Resources */,
 				F3478F8F1D1A384B00119E8E /* FFTest4Controller.xib in Resources */,
+				F33B75D01D46042400C494D0 /* FFAutoLayoutDemoController.xib in Resources */,
 				F3478F8A1D1A383E00119E8E /* FFTest3Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +617,8 @@
 				7B8996DA1D19813000EEDC8E /* AppDelegate.m in Sources */,
 				F3EF815F1D28BCAF005C1BC1 /* IATConfig.m in Sources */,
 				7B8996D71D19813000EEDC8E /* main.m in Sources */,
+				F33B75D41D46055100C494D0 /* UIView+FFAutoLayout.m in Sources */,
+				F33B75CF1D46042400C494D0 /* FFAutoLayoutDemoController.m in Sources */,
 				F3478F7B1D1A37AC00119E8E /* FFDefine.m in Sources */,
 				F3478F8E1D1A384B00119E8E /* FFTest4Controller.m in Sources */,
 				F3EF815C1D287D22005C1BC1 /* FFVoiceUtil.m in Sources */,

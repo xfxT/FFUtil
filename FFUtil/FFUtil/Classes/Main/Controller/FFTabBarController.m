@@ -33,8 +33,8 @@
 - (void)setupControllers
 {
     
-    [self addChildVc:@"FFTest1Controller" title:@"测试1" image:@"" selectedImage:@""];
-    [self addChildVc:@"FFTest2Controller" title:@"测试2" image:@"" selectedImage:@""];
+    [self addChildVc:@"FFAutoLayoutDemoController" title:@"自动布局" image:@"tabbar_mobileClinic" selectedImage:@"tabbar_mobileClinic_click"];
+//    [self addChildVc:@"FFTest2Controller" title:@"测试2" image:@"" selectedImage:@""];
 }
 
 #pragma mark 添加一个子控制器 子控制器,标题,图片,选中的图片
