@@ -33,7 +33,7 @@
 - (void)setupControllers
 {
     
-    [self addChildVc:@"FFAutoLayoutDemoController" title:@"自动布局" image:@"tabbar_mobileClinic" selectedImage:@"tabbar_mobileClinic_click"];
+    [self addChildVc:@"FFAnimFamilyController" title:@"动画" image:@"tabbar_mobileClinic" selectedImage:@"tabbar_mobileClinic_click"];
 //    [self addChildVc:@"FFTest2Controller" title:@"测试2" image:@"" selectedImage:@""];
 }
 
